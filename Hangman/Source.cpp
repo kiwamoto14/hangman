@@ -5,6 +5,9 @@
 using namespace std;
 
 int main() {
+
+	system("Color 0B"); // change color
+
 	int numLetter = 0;
 	int numWrong = 0;
 
@@ -14,7 +17,7 @@ int main() {
 
 	bool win = false;
 
-	cout << "Welcome to Hangman." << endl;
+	cout << "Welcome to Hangman!" << endl;
 	cout << "Please enter the word you'd like to choose." << endl;
 	cin >> word;
 
