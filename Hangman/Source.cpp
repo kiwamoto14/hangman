@@ -20,6 +20,7 @@ int main() {
 	cout << "Welcome to Hangman!" << endl;
 	cout << "Please enter the word you'd like to choose." << endl;
 	cin >> word;
+	system("cls"); //clear screen
 
 	while ((win == false) && (numWrong < 5)) {
 		int count = 0;
@@ -75,6 +76,7 @@ int main() {
 	}
 	else {
 		cout << "Oh no! You lost!" << endl;
+		cout << "The correct answer was: " << word << endl;
 	}
 
 	return 0;
